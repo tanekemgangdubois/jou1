@@ -8,7 +8,7 @@ pipeline {
                 timeout(time: 1, unit: 'SECONDS')
             }
             steps {
-                echo 'Hello World this is Aristide Jou'
+                echo 'Hello World this is Aristide Jou tanekemgang'
             }
         }
     }
