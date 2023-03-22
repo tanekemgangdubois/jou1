@@ -1,0 +1,12 @@
+name: pipeline2
+on:
+  workflow_dispatch:
+jobs:
+  Example:
+    timeout-minutes: 0.0
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3.4.0
+    - name: echo message
+      run: echo Hello World , le test a marche
